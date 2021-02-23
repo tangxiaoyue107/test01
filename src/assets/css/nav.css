@@ -1,0 +1,175 @@
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* text-align: center; */
+  color: #2c3e50;
+}
+
+
+/*导航*/
+.translate{
+  width: min-content;
+  position: absolute;
+  top:0;
+  left: 70vw;
+  display: flex;
+}
+
+/*左三角*/
+.lefttrai{
+    width:0;
+    height:0;
+    border-bottom:2vw solid transparent;
+    border-right:2vw solid rgb(255, 255, 255);
+}
+/* .lefttrai::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    border-width: 0 30px 30px;
+    border-style: solid;
+    border-top-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-color:transparent;
+    border-left-color: transparent;
+} */
+
+
+/*右三角*/
+.righttrai{
+    width:0;
+    height:0;
+    border-bottom:2vw solid transparent;
+    border-left:2vw solid rgb(255, 255, 255);
+}
+/* .righttrai::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    border-width: 0 30px 30px;
+    border-style: solid;
+    border-top-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-bottom-color:transparent;
+    border-right-color: transparent;
+} */
+
+
+/*中间空白*/
+.midtrai{
+  width: min-content;
+  padding:0 0.1rem;
+  height: 2vw;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.midtrai span{
+  font-size: 0.8rem;
+  width: min-content;
+  z-index: 999;
+  position: relative;
+  text-align: center;
+  /* top:-4px; */
+}
+.span_left{
+  min-width: 80px;
+  margin-left: 5px;
+}
+.span_mid{
+  min-width: 40px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.span_right{
+  min-width: 40px;
+  margin-left: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+
+/*上导航*/
+#nav {
+  padding:10px 0;
+  width: 100%;
+  background-color: #d6e4ff;
+  border-top:0.5em solid #5d96ff ;
+  display: flex;
+  align-items: center;
+}
+
+
+/*校徽*/
+.school{
+  width: 10vw;
+  height: 10vw;
+  /* transform: scale(0.8); */
+  position:relative;
+  left:15vw;
+}
+
+/*校徽字*/
+.school_font{
+  position: relative;
+  left:15vw;
+  width: 19vw;
+  height: 5vw;
+}
+/*topic*/
+.topic{
+  width: 40.2vw;
+  height: 6vw;
+  position: relative;
+  left:4vw;
+}
+
+
+/*下导航*/
+.navbox{
+  /* width: 100vw; */
+  height: 3.5vw;
+  background-color: #5d96ff;
+}
+.navbox ul{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin:0 auto;
+  padding: 0 15vw;
+  align-items: center;
+  justify-content: center;
+}
+.navbox li{
+  list-style: none;
+  width: 10vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #42b983; */
+}
+.nav_font{
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  width: min-content;
+  min-width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 0;
+}
+.router-link-active{
+  background-image: linear-gradient(white,rgba(255, 255, 255, 0));
+}
+.lang_active{
+  color: rgb(25, 0, 255);
+}

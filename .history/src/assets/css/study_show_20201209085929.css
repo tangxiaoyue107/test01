@@ -1,0 +1,22 @@
+/* 左导航 */
+.left_study_nav{
+  width: 20vw;
+  height: min-content;
+  /* background-color: blanchedalmond; */
+  border-right: 0.1rem solid rgb(214, 214, 214);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+/* 右边栏 */
+.study_show_details{
+  width: 61.5vw;
+  height: min-content;
+  background-color: rgb(255, 255, 255);
+  /* box-shadow: 2px 2px 7px 7px rgba(182, 182, 182, 0.397); */
+  margin:3rem 2rem;
+}
+
+
